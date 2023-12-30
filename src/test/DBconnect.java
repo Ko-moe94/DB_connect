@@ -23,6 +23,7 @@ public class DBconnect {
 			while (rs.next()) {
 				System.out.println(rs.getString(1));
 				System.out.println(rs.getString(2));			} 
+			System.out.println("Git Test");
 		}catch (SQLException e) {
 				System.out.println("Error while connecting to the database");		
 			}
